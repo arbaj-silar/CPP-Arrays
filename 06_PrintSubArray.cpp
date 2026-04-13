@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 
-void printSubarrays(vector<int> nums) {
+void printSubarrays(vector<int>& nums) {
 
     for(int i=0; i<nums.size(); i++) {
         for(int j=i; j<nums.size(); j++) {
