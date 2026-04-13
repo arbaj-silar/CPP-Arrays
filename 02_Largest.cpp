@@ -8,6 +8,7 @@ int getLargValue(int arr[], int n) {
         if(largest < arr[i]) {
             largest = arr[i];
         }
+        // max(largest, arr[i]);
     }
     return largest;
 }

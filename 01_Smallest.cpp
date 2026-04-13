@@ -8,6 +8,7 @@ int getSmallValue(int arr[], int n) {
         if(smallest > arr[i]) {
             smallest = arr[i];
         }
+        // min(smallest, arr[i]);
     }
     return smallest;
 }
