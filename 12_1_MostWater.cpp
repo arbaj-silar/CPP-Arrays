@@ -2,7 +2,6 @@
 #include<vector>
 using namespace std;
 
-// Brute Approach
 int maxArea(vector<int>& height) {
     int maxWater = 0;
     int st = 0, end = height.size()-1;
